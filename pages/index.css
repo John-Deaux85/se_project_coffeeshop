@@ -29,11 +29,26 @@
 .header__title {
   margin: 183px 0 0;
   max-width: 729px;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  color: #3f96f3;
 }
 
 .header__description {
   margin: 28px 0 0;
   max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__footer {
@@ -45,6 +60,11 @@
 
 .header__paragraph {
   margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
 }
 
 .nav {
@@ -70,4 +90,8 @@
 .nav__link {
   text-decoration: none;
   color: #000;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
