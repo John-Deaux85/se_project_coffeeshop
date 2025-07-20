@@ -2,6 +2,7 @@
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
+  background-position: center;
   font-family: "Inter", "Arial", sans-serif;
   color: #fff;
   padding: 100px 80px 215px;
@@ -27,6 +28,7 @@
   display: flex;
   list-style-type: none;
   justify-content: center;
+  padding-left: 0;
   gap: 40px;
   margin: 0;
 }
@@ -43,4 +45,5 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin: 24px 0 0;
 }
